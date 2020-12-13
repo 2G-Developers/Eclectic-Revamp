@@ -14,7 +14,7 @@ body {
   color: #829052;
 }
 .text-header {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 .fav-icon {
@@ -37,8 +37,8 @@ body {
 }
 
 .eclectic__logo {
-    max-width: 250px;
-    max-height: 350px;
+    max-width: 150px;
+    /* max-height: 350px; */
     margin: 2rem auto;
 }
 
@@ -69,5 +69,13 @@ body {
 
     .right-image {
         height: 100vh;
+    }
+
+    .eclectic__logo {
+        max-width: 250px;
+    }
+
+    .text-header {
+        font-size: 2rem;
     }
 }
