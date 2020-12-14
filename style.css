@@ -25,7 +25,8 @@ body {
 }
 
 .left-content {
-    min-height: 50vh;
+    /* min-height: 50vh; */
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,11 +43,11 @@ body {
     max-width: 150px;
     /* max-height: 350px; */
     /* margin: 2rem auto; */
-    margin: 2rem auto 1.5625rem auto;
+    margin: 1rem auto;
 }
 
 .eclectic__content {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .eclectic__content p {
@@ -58,7 +59,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5625rem 0 2rem 0;
+    margin: 1rem 0;
 }
 
 .img-responsive {
@@ -88,6 +89,10 @@ body {
     }
 
     .eclectic__footer {
+        margin: 2rem 0;
+    }
+
+    .eclectic__content {
         margin: 2rem 0;
     }
 
