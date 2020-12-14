@@ -26,7 +26,7 @@ body {
 
 .left-content {
     /* min-height: 50vh; */
-    height: 50vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
