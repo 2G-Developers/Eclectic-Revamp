@@ -4,10 +4,14 @@
     box-sizing: inherit;
 }
 
+html {
+    height: 100%;
+}
+
 body {
   font-family: "Poppins";
   box-sizing: border-box;
-  height: 100vh;
+  height: 100%;
 }
 .text-para {
   font-size: 1em;
@@ -26,7 +30,7 @@ body {
 
 .left-content {
     /* min-height: 50vh; */
-    height: 45vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +40,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 50%;
 }
 
 .eclectic__logo {
