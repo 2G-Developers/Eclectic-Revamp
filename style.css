@@ -17,7 +17,7 @@ body {
   font-size: 1em;
   color: #829052;
   font-style: italic;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .text-header {
   font-size: 1.5rem;
@@ -33,7 +33,7 @@ body {
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .right-image {
@@ -47,11 +47,11 @@ body {
     max-width: 150px;
     /* max-height: 350px; */
     /* margin: 2rem auto; */
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 .eclectic__content {
-    margin: 1rem 0;
+    margin: 0;
 }
 
 .eclectic__content p {
@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 0;
 }
 
 .img-responsive {
@@ -77,6 +77,7 @@ body {
 @media (min-width: 992px) {
     .left-content {
         height: 100vh;
+        justify-content: center;
     }
 
     .right-image {
@@ -106,6 +107,7 @@ body {
 
     .text-para {
         font-size: 1.75rem;
+        margin-top: 1.5rem;
     }
 
     /* .eclectic__content {
